@@ -10,7 +10,7 @@ class ListNode {
 
 public class middlenodetandh {
 
-    public ListNode findMiddle(ListNode head) {
+    public static ListNode findMiddle(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -37,8 +37,8 @@ public class middlenodetandh {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        MiddleNodeFinder finder = new MiddleNodeFinder();
-        ListNode middleNode = finder.findMiddle(head);
+        // MiddleNodeFinder finder = new MiddleNodeFinder();
+        ListNode middleNode = findMiddle(head);
         System.out.println("Middle node value: " + middleNode.val); // Output: 3
     }
 }

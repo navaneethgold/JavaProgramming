@@ -1,4 +1,4 @@
-public class BitManipulation {
+public class bitmanipulation {
     public static int clearbit(int a, int i) {
         return a & ~(1 << i);
     }
