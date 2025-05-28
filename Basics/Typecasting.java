@@ -8,6 +8,7 @@ public class Typecasting {
         int d=c; //d=97
         int intValue = 65; // ASCII/Unicode value for 'A'
         char charValue = (char) intValue;
+        System.out.println(b+" "+d+" "+charValue);
         //char e='b'-'a'; but this gives an error
         //using type casting we can perform an conversion but lossy
         //if in a operation let's say a+b+c if a is long and b,c are int then b,c will also be converted into long this is called type promotions
